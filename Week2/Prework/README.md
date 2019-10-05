@@ -1,3 +1,9 @@
+# Week 2: Prework
+
+**Fecha de entrega:** 5 Oct. 2019
+
+### Preguntas de Prework
+
 1. Entra a https://www.hackingwithswift.com/sixty y en la página [online.swiftplayground.run](http://online.swiftplayground.run) haz las siguientes secciones:
 
 2. 1. Complex Types
