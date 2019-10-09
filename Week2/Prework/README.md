@@ -128,11 +128,11 @@
 
 9. Investiga y describe la arquitectura de diseño MVC
 
-Es un estilo de arquitectura se software que separa a los datos de una aplicación, la interfaz, y la lógica de controlador en tres componentes distintos.
+	Es un estilo de arquitectura se software que separa a los datos de una aplicación, la interfaz, y la lógica de controlador en tres componentes distintos.
 
-El Modelo que contiene una representación de los datos que maneja el sistema, su lógica de negocio, y sus mecanismos de persistencia.
-La Vista, o interfaz de usuario, que compone la información que se envía al cliente y los mecanismos interacción con éste.
-El Controlador, que actúa como intermediario entre el Modelo y la Vista, gestionando el flujo de información entre ellos y las transformaciones para adaptar los datos a las necesidades de cada uno.
+	El Modelo que contiene una representación de los datos que maneja el sistema, su lógica de negocio, y sus mecanismos de persistencia.
+	La Vista, o interfaz de usuario, que compone la información que se envía al cliente y los mecanismos interacción con éste.
+	El Controlador, que actúa como intermediario entre el Modelo y la Vista, gestionando el flujo de información entre ellos y las transformaciones para adaptar los datos a las necesidades de cada uno.
 
 
 10. ¿Qué es un ViewController?
@@ -141,10 +141,40 @@ El Controlador, que actúa como intermediario entre el Modelo y la Vista, gestio
 
 11. ¿Qué es un Storyboard?
 
+	El Storyboard es un conjunto imágenes mostradas en secuencia, con el fin de previsualizar una animación o cualquier otro medio gráfico o interactivo. En el campo de la experiencia de los usuarios, de cómo funcionará un producto o un servicio.
+
+	En swift es la representación gráfica de la interfaz de usuario en la que podremos incluir los componentes del “Object library” y desde la cual podemos enlazar la interfaz de usuario con la clase de una manera visual.
+
 12. ¿Qué es un IBAction?
+
+	Es la forma que tenemos de modificar el comportamiento de eventos que se disparan en la pantalla. Son usadas para los componentes de tipo boton/accion, le indican a la interfaz que el método puede ser disparado por desde un evento lanzado por un elemento gráfico en la pantalla.
 
 13. ¿Qué es un IBOutlet?
 
+	Permite relacionar objetos definidos en la vista con las propiedades definidas en el código de la clase del ViewController que está asignada en dicha escena. Se utiliza para los componentes de salida, como la etiquetas, o para los componentes de entrada/salida como las cajas de texto
+
 14. ¿Qué es la notación CamelCase y cuáles son sus tipos? ¿Conoces otro tipo de notación?
 
+	Convención de nombre en el que las mayúsculas a lo largo de la palabra asemejan las jorobas de un camello.
+	
+	Existen dos tipos:
+
+	* UpperCamelCase, cuando la primera letra de cada un a de las palabras se escribe en mayúsculas.
+	* lowerCamelCase es igual que la anterior, con la excepción de que la primera letra de la primera palabra se escribe en minúscula.
+
+
+	Otras convenciones son:
+
+	* snake_case
+	* kebab-case
+	* Train-Case
+
 15. ¿Qué es un IDE y cuáles son sus elementos principales?
+
+	Es un entorno de desarrollo integrado que facilita al programador el desarrollo de software, ya que permiten permiten realizar todo el desarrollo en un solo lugar. Consiste en:
+
+	* editor de código fuente
+	* compilador
+	* depurador
+	* constructor de interfaz gráfica
+
